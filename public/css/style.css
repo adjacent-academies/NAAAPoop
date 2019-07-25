@@ -1,8 +1,20 @@
 body {
+  background-color: rgb(255, 153, 40);
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px "Arial";
+  -webkit-text-fill-color: whitesmoke;
+
+  font-family: "Hanalei", cursive;
+  font-family: "Permanent Marker", cursive;
+  font-family: "Staatliches", cursive;
+}
+a {
+  color: #00b7ff;
+
+
 }
 
-a {
-  color: #00B7FF;
+menu {
+  background-color: rgb(26, 26, 26);
+  font-family: "Staatliches", cursive;
 }
