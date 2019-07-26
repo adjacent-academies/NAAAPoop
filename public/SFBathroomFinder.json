@@ -1,0 +1,31 @@
+{
+"type": "FeatureCollection",
+"name": "Untitled layer",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Name": "Public Restroom", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4074808, 37.787639 ] } },
+{ "type": "Feature", "properties": { "Name": "Public Restroom", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4077448, 37.7843994 ] } },
+{ "type": "Feature", "properties": { "Name": "Public Restroom", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4060205, 37.7767539 ] } },
+{ "type": "Feature", "properties": { "Name": "Public Restroom", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4060205, 37.7767539 ] } },
+{ "type": "Feature", "properties": { "Name": "library", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4221715, 37.7920605 ] } },
+{ "type": "Feature", "properties": { "Name": "Library Science University", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4317732, 37.8068223 ] } },
+{ "type": "Feature", "properties": { "Name": "Library & Center For Knowledge", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4591526, 37.7636336 ] } },
+{ "type": "Feature", "properties": { "Name": "Landscape Learning Laboratory", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4778153, 37.7210072 ] } },
+{ "type": "Feature", "properties": { "Name": "Library", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4672902, 37.6305206 ] } },
+{ "type": "Feature", "properties": { "Name": "Library Avenue", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.3967056, 37.6029672 ] } },
+{ "type": "Feature", "properties": { "Name": "Library and KCSM Building 9", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.3347481, 37.5356852 ] } },
+{ "type": "Feature", "properties": { "Name": "Belmont Library", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.293139, 37.508882 ] } },
+{ "type": "Feature", "properties": { "Name": "La Entrada Library", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.2013361, 37.4272555 ] } },
+{ "type": "Feature", "properties": { "Name": "Library", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.0341117, 37.353184 ] } },
+{ "type": "Feature", "properties": { "Name": "San Francisco City Hall", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4192646, 37.7792597 ] } },
+{ "type": "Feature", "properties": { "Name": "US General Services Administration", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4180969, 37.78195 ] } },
+{ "type": "Feature", "properties": { "Name": "GSA General Services Administration", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4122106, 37.7789492 ] } },
+{ "type": "Feature", "properties": { "Name": "US Government Accountability Office", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.3942764, 37.7895269 ] } },
+{ "type": "Feature", "properties": { "Name": "Library Science University", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4317732, 37.8068223 ] } },
+{ "type": "Feature", "properties": { "Name": "College Track", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.389203, 37.738366 ] } },
+{ "type": "Feature", "properties": { "Name": "San Francisco DMV", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.4403944, 37.7733155 ] } },
+{ "type": "Feature", "properties": { "Name": "Dmv", "description": null }, "geometry": { "type": "Point", "coordinates": [ -122.2100595, 37.7697528 ] } }
+]
+}
+
+
