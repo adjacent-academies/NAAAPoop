@@ -1,18 +1,40 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>{{title}}</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.css"
     integrity="sha256-QVBN0oT74UhpCtEo4Ko+k3sNo+ykJFBBtGduw13V9vw=" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Hanalei|Permanent+Marker|Staatliches&display=swap"
+    rel="stylesheet">
 
   <link rel='stylesheet' href='/css/style.css' />
 </head>
 
 <body>
+  {{!-- Menu from Semantic --}}
+  <menu>
+    <div class="ui inverted top fixed menu">
+      <div class="item">
+        <img src="/poop_logo.png">
+      </div>
+      <a id="home button" class="item">Home</a>
+      <a id="list button" class="item">List/Map</a>
+      <a id="about button" class="item">About</a>
+      <a id="faq button" class="item">FAQ</a>
+    </div>
+    <div class="ui inverted bottom fixed menu">
+      <div class="item">
+        <img src="\poop_logo.png">
+      </div>
+      <a class="item">Home</a>
+      <a class="item">List/Map</a>
+      <a class="item">About</a>
+      <a class="item">FAQ</a>
+    </div>
+  </menu>
   <div class="ui container">
 
-  {{{body}}}
+    {{{body}}}
 
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"
