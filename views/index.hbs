@@ -1,17 +1,19 @@
 <h1>{{title}}</h1>
 <h2>At Fecal Finder we believe you should be kind to your behind. Poop with us. </p>
-{{!-- {{fixed data for testing sorting lists}} --}}
-<p>Find your next poop</p>
-<button onclick="sortList()">Places to poop</black button>
-<button onclick="sortListLength()">LENGTH</button>
-<ul id="cities">
-    <li>San Francisco</li>
-    <li>Milwaukee</li>
-    <li>Miami</li>
-    <li>Danville</li>
-    <li>Baltimore</li>
-    
-</ul>
-<script src="/js/sortinglist.js"></script>
-<script src="/js/dynamicObjectsort.js"></script>
+  {{!-- {{fixed data for testing sorting lists}} --}}
+  <p>Find your next poop</p>
+  <button class="buttonSorter" onclick="sortList()">WORST POOP FINDER </button>
+  <button class="buttonSorter" onclick="sortListLength()">BEST POOP FINDER</button>
 
+
+  <ul class="bestpoops" id="cities">
+    <li><i class="em em-hankey"></i> Fecal Finder</li>
+    <li><i class="em em-disappointed"></i> Potty Picker</li>
+    <li><i class="em em-disappointed"></i> Poop De Scoop</li>
+    <li><i class="em em-disappointed"></i> Poopy Planner of SF</li>
+
+  </ul>
+  <script src="/js/sortinglist.js"></script>
+  <script src="/js/dynamicObjectsort.js"></script>
+  <script src="/css/style.css"></script>
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">

@@ -20,3 +20,8 @@ menu {
 .redBordered {
   border: 1px solid red;
 }
+
+.buttonSorter {
+  background-color: #4CAF50;
+
+}
