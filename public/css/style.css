@@ -10,11 +10,13 @@ body {
 }
 a {
   color: #00b7ff;
-
-
 }
 
 menu {
   background-color: rgb(26, 26, 26);
   font-family: "Staatliches", cursive;
+}
+
+.redBordered {
+  border: 1px solid red;
 }
