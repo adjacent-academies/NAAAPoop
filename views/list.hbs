@@ -1,32 +1,27 @@
+<font size="50">Locate your next poop palace.</font>
+</br>
 <script src="/js/index.js"></script>
-<a href="http://google.com" class="ui blue button">search the web for poops</a>
-
-<div class="entry">
-  <h1>{{title}}</h1>
+<a href="http://google.com" class="ui blue button">Click to find your next sh*t</a>
+<div class="comments">
+ <div class="ui list"></div>
+  {{#each locations}}
+     <i class="map pin icon"></i>
+    <div class="comment">
+      <h4>{{properties.Name}}</h4>
+      {{{geometry.coordinates}}}
+    </div>
+  {{/each}}
+</div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
   {{#with story}}
     <div class="intro">{{{intro}}}</div>
     <div class="body">{{{body}}}</div>
   {{/with}}
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-<div class="comments">
- <div class="ui list"></div>
-  {{#each locations}}
-     <i class="map pin icon"></i>
-    <div class="comment">
-      <h2>{{properties.Name}}</h2>
-      {{{geometry.coordinates}}}
-    </div>
-  {{/each}}
-</div>
