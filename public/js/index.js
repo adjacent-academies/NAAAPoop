@@ -1,11 +1,30 @@
 // creates a mock list of toilets
-let toiletList = [
-  { Name: "John Doe", Rating: 2 },
-  { Name: "Mary Sue", Rating: 3 },
-  { Name: "Zebra Boy", Rating: 1 },
-  { Name: "Hey Alexa", Rating: 4 },
-  { Name: "Danny Devito", Rating: 5 }
-];
+
+const toiletList =  [
+   { Name: "Public Restroom", Rating: 2},
+   { Name: "Public Restroom", Rating: 3},
+   { Name: "Public Restroom", Rating: 5},
+   { Name: "Public Restroom", Rating: 1},
+   { Name: "library", Rating: 5},
+   { Name: "Library Science University", Rating: 4},
+   { Name: "Library & Center For Knowledge", Rating: 4},
+   { Name: "Landscape Learning Laboratory", Rating: 3},
+   { Name: "Library", Rating: 3},
+   { Name: "Library Avenue", Rating:4 },
+   { Name: "Library and KCSM Building 9", Rating:1},
+   { Name: "Belmont Library", Rating:3},
+   { Name: "La Entrada Library", Rating:4},
+   { Name: "Library", Rating:3},
+   { Name: "San Francisco City Hall", Rating:5},
+   { Name: "US General Services Administration", Rating:1},
+   { Name: "GSA General Services Administration", Rating:2},
+   { Name: "US Government Accountability Office", Rating:3},
+   { Name: "Library Science University", Rating:3},
+   { Name: "College Track", Rating:4},
+   { Name: "San Francisco DMV", Rating:5},
+   { Name: "Dmv", Rating:5} ]
+
+   //sortByRating(toiletList)
 
 /*
 loop through each toilet in the list
@@ -15,7 +34,7 @@ loop through each toilet in the list
 
 sortByRating = toiletList => {
   // create arrays for each rating (1-5)
-    let star1 = [];
+  let star1 = [];
   let star2 = [];
   let star3 = [];
   let star4 = [];
@@ -44,11 +63,22 @@ sortByRating = toiletList => {
         star5.push(tlt);
         break;
     }
+    console.log("butts")
   }
 
   let finalArray = star5.concat(star4, star3, star2, star1);
   return finalArray;
 };
+
+
+let result = sortByRating(toiletList)
+console.log(result)
+// $("#sortbutton").on("click", ()=>{
+//   sortByRating()
+
+// });
+
+
 
 // OLD CODE IS BELOW
 
@@ -91,4 +121,11 @@ sortByRating = toiletList => {
       }
     }
   };
-*/
+   /* let toiletList = [
+  { Name: "John Doe", Rating: 2 },
+  { Name: "Mary Sue", Rating: 3 },
+  { Name: "Zebra Boy", Rating: 1 },
+  { Name: "Hey Alexa", Rating: 4 },
+  { Name: "Danny Devito", Rating: 5 }
+]; */
+
