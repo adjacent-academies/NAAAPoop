@@ -1,4 +1,8 @@
 function sortList() {
+/*   let dataArray = [
+    { Name: "Squatty", Rating: 3, Single: Y, Accesible: Y },
+    { Name: "Potty", Rating: 1, Single: N, Accesible: N }
+  ]; */
   let list, i, switching, b, shouldSwitch;
   list = document.getElementById("cities");
   switching = true;
