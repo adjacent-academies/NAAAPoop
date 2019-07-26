@@ -3,13 +3,13 @@
 <script src="/js/index.js"></script>
 <a href="http://google.com" class="ui blue button">Click to find your next sh*t</a>
 <div class="comments">
- <div class="ui list"></div>
+  <div class="ui list"></div>
   {{#each locations}}
-     <i class="map pin icon"></i>
-    <div class="comment">
-      <h4>{{properties.Name}}</h4>
-      {{{geometry.coordinates}}}
-    </div>
+  <i class="map pin icon"></i>
+  <div class="comment">
+    <h4>{{properties.Name}}</h4>
+    {{{geometry.coordinates}}}
+  </div>
   {{/each}}
 </div>
 </br>
@@ -19,9 +19,8 @@
 </br>
 </br>
 </br>
-  {{#with story}}
-    <div class="intro">{{{intro}}}</div>
-    <div class="body">{{{body}}}</div>
-  {{/with}}
+{{#with story}}
+<div class="intro">{{{intro}}}</div>
+<div class="body">{{{body}}}</div>
+{{/with}}
 </div>
-
